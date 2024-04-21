@@ -63,7 +63,7 @@ class Config(object):
     
     # Url Shortner Information 
     TECH_VJ = bool(environ.get('TECH_VJ', True)) # Set False If you want shortlink off else True
-    TECH_VJ_URL = environ.get('TECH_VJ_URL', 'moneykamalo.com') # your shortlink url domain or url without https://
+    TECH_VJ_URL = environ.get('TECH_VJ_URL', 'publicearn.com') # your shortlink url domain or url without https://
     TECH_VJ_API = environ.get('TECH_VJ_API', '0c8d50fdb269c12aea332be29c4b7a29b29784c9') # your url shortner api
     TECH_VJ_TUTORIAL = os.environ.get("TECH_VJ_TUTORIAL", "https://t.me/tutorial_bash/3")
 
